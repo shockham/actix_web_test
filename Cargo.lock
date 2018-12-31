@@ -6,7 +6,7 @@ dependencies = [
  "actix_derive 0.3.2 (registry+https://github.com/rust-lang/crates.io-index)",
  "bitflags 1.0.4 (registry+https://github.com/rust-lang/crates.io-index)",
  "bytes 0.4.11 (registry+https://github.com/rust-lang/crates.io-index)",
- "crossbeam-channel 0.3.4 (registry+https://github.com/rust-lang/crates.io-index)",
+ "crossbeam-channel 0.3.6 (registry+https://github.com/rust-lang/crates.io-index)",
  "failure 0.1.4 (registry+https://github.com/rust-lang/crates.io-index)",
  "fnv 1.0.6 (registry+https://github.com/rust-lang/crates.io-index)",
  "futures 0.1.25 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -87,7 +87,7 @@ dependencies = [
  "rand 0.6.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "regex 1.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde 1.0.83 (registry+https://github.com/rust-lang/crates.io-index)",
- "serde_json 1.0.33 (registry+https://github.com/rust-lang/crates.io-index)",
+ "serde_json 1.0.34 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde_urlencoded 0.5.4 (registry+https://github.com/rust-lang/crates.io-index)",
  "sha1 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "slab 0.4.1 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -284,10 +284,9 @@ dependencies = [
 
 [[package]]
 name = "crossbeam-channel"
-version = "0.3.4"
+version = "0.3.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
- "crossbeam-epoch 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "crossbeam-utils 0.6.3 (registry+https://github.com/rust-lang/crates.io-index)",
  "parking_lot 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "rand 0.6.1 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -1017,7 +1016,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
 name = "serde_json"
-version = "1.0.33"
+version = "1.0.34"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "itoa 0.4.3 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -1543,7 +1542,7 @@ dependencies = [
 "checksum cookie 0.11.0 (registry+https://github.com/rust-lang/crates.io-index)" = "1465f8134efa296b4c19db34d909637cb2bf0f7aaf21299e23e18fa29ac557cf"
 "checksum crc 1.8.1 (registry+https://github.com/rust-lang/crates.io-index)" = "d663548de7f5cca343f1e0a48d14dcfb0e9eb4e079ec58883b7251539fa10aeb"
 "checksum crc32fast 1.1.2 (registry+https://github.com/rust-lang/crates.io-index)" = "e91d5240c6975ef33aeb5f148f35275c25eda8e8a5f95abe421978b05b8bf192"
-"checksum crossbeam-channel 0.3.4 (registry+https://github.com/rust-lang/crates.io-index)" = "5b2a9ea8f77c7f9efd317a8a5645f515d903a2d86ee14d2337a5facd1bd52c12"
+"checksum crossbeam-channel 0.3.6 (registry+https://github.com/rust-lang/crates.io-index)" = "137bc235f622ffaa0428e3854e24acb53291fc0b3ff6fb2cb75a8be6fb02f06b"
 "checksum crossbeam-deque 0.6.3 (registry+https://github.com/rust-lang/crates.io-index)" = "05e44b8cf3e1a625844d1750e1f7820da46044ff6d28f4d43e455ba3e5bb2c13"
 "checksum crossbeam-epoch 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)" = "f10a4f8f409aaac4b16a5474fb233624238fcdeefb9ba50d5ea059aab63ba31c"
 "checksum crossbeam-utils 0.6.3 (registry+https://github.com/rust-lang/crates.io-index)" = "41ee4864f4797060e52044376f7d107429ce1fb43460021b126424b7180ee21a"
@@ -1631,7 +1630,7 @@ dependencies = [
 "checksum semver 0.9.0 (registry+https://github.com/rust-lang/crates.io-index)" = "1d7eb9ef2c18661902cc47e535f9bc51b78acd254da71d375c2f6720d9a40403"
 "checksum semver-parser 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)" = "388a1df253eca08550bef6c72392cfe7c30914bf41df5269b68cbd6ff8f570a3"
 "checksum serde 1.0.83 (registry+https://github.com/rust-lang/crates.io-index)" = "157e12af46859e968da75dea9845530e13d03bcab2009a41b9b7bb3cf4eb3ec2"
-"checksum serde_json 1.0.33 (registry+https://github.com/rust-lang/crates.io-index)" = "c37ccd6be3ed1fdf419ee848f7c758eb31b054d7cd3ae3600e3bae0adf569811"
+"checksum serde_json 1.0.34 (registry+https://github.com/rust-lang/crates.io-index)" = "bdf540260cfee6da923831f4776ddc495ada940c30117977c70f1313a6130545"
 "checksum serde_urlencoded 0.5.4 (registry+https://github.com/rust-lang/crates.io-index)" = "d48f9f99cd749a2de71d29da5f948de7f2764cc5a9d7f3c97e3514d4ee6eabf2"
 "checksum sha1 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)" = "2579985fda508104f7587689507983eadd6a6e84dd35d6d115361f530916fa0d"
 "checksum signal-hook 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)" = "1f272d1b7586bec132ed427f532dd418d8beca1ca7f2caf7df35569b1415a4b4"
